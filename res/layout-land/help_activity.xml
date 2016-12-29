@@ -1,0 +1,51 @@
+<!--
+/*
+	Author : Praveenmax
+	github : github.com/praveenmax
+
+*/
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgimg_mainmenu"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fadingEdge="horizontal|none"
+        android:gravity="center_horizontal"
+        android:hapticFeedbackEnabled="true"
+        android:text="Learn Music notes"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:layout_weight="0.15"
+        android:background="#220000FF"
+        android:hapticFeedbackEnabled="true"
+        android:linksClickable="true"
+        android:scrollHorizontally="true"
+        android:scrollbars="vertical"
+        android:autoLink="web"
+        android:text="Try to answer the name of the note at each position on the staff(those 5 lines). The circle &apos;o&apos; is the note.
+Time limit is 60 seconds and your score is determined by the number of right and wrong answers.
+Ones doesn&apos;t need music theory knowledge to play this game.
+If you are confused, use this cheatsheet  https://praveenmax.wordpress.com/2015/05/11/learn-music-notes-cheat-sheet/"
+
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

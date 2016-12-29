@@ -1,0 +1,158 @@
+<!--
+/*
+	Author : Praveenmax
+	github : github.com/praveenmax
+
+*/
+
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/game_background"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <requestFocus android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tv_correct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Correct : 0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_incorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:text="Incorrect : 0"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+
+        
+        <TextView
+            android:id="@+id/tv_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Percent : 00"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+        
+	        <ImageView
+	            android:id="@+id/staffsheet"
+	            android:layout_width="353dp"
+	            android:layout_height="247dp"
+	            android:gravity="center_horizontal"
+           		android:layout_weight="1"
+	            android:adjustViewBounds="true"
+	            android:src="@drawable/staffsheet_b" />
+	        
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Time : 60"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+	        
+	</LinearLayout>	
+	
+    
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+		<Button
+		    android:id="@+id/bt_c"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_c"
+		    android:text="C" />
+		
+		<Button
+		    android:id="@+id/bt_d"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:tag="staffsheet_d"
+		    android:layout_height="wrap_content"
+		    android:text="D" />
+
+		<Button
+		    android:id="@+id/bt_e"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_e"
+		    android:text="E" />
+		
+		<Button
+		    android:id="@+id/bt_f"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_f"
+		    android:text="F" />
+		
+		<Button
+		    android:id="@+id/bt_g"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_g"
+		    android:text="G" />
+		
+		<Button
+		    android:id="@+id/bt_a"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_a"
+		    android:text="A" />				
+		    
+		<Button
+		    android:id="@+id/bt_b"
+            android:gravity="center_horizontal"
+		    android:layout_width="wrap_content"
+            android:layout_weight="1"
+		    android:layout_height="wrap_content"
+		    android:tag="staffsheet_b"
+		    android:text="B" />													
+	        
+	</LinearLayout>
+</LinearLayout>
